@@ -1,0 +1,359 @@
+%------------------------
+
+
+\documentclass[letterpaper,11pt]{article}
+
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{fontawesome5}
+\usepackage{multicol}
+\usepackage{graphicx}
+\setlength{\multicolsep}{-3.0pt}
+\setlength{\columnsep}{-1pt}
+\input{glyphtounicode}
+
+
+\RequirePackage{tikz}
+\RequirePackage{xcolor}
+\RequirePackage{fontawesome}
+\usepackage{tikz}
+\usetikzlibrary{svg.path}
+
+
+
+
+\definecolor{cvblue}{HTML}{0E5484}
+\definecolor{black}{HTML}{130810}
+\definecolor{darkcolor}{HTML}{0F4539}
+\definecolor{cvgreen}{HTML}{3BD80D}
+\definecolor{taggreen}{HTML}{00E278}
+\definecolor{SlateGrey}{HTML}{2E2E2E}
+\definecolor{LightGrey}{HTML}{666666}
+\colorlet{name}{black}
+\colorlet{tagline}{darkcolor}
+\colorlet{heading}{darkcolor}
+\colorlet{headingrule}{cvblue}
+\colorlet{accent}{darkcolor}
+\colorlet{emphasis}{SlateGrey}
+\colorlet{body}{LightGrey}
+
+
+
+
+
+
+%----------FONT OPTIONS----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+
+
+
+% \pagestyle{fancy}
+% \fancyhf{}  % clear all header and footer fields
+% \fancyfoot{}
+% \renewcommand{\headrulewidth}{0pt}
+% \renewcommand{\footrulewidth}{0pt}
+
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.6in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1.19in}
+\addtolength{\topmargin}{-.7in}
+\addtolength{\textheight}{1.4in}
+
+
+\urlstyle{same}
+
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large\bfseries
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+
+\newcommand{\classesList}[4]{
+    \item\small{
+        {#1 #2 #3 #4 \vspace{-2pt}}
+  }
+}
+
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{1.0\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{\large#1} & \textbf{\small #2} \\
+      \textit{\large#3} & \textit{\small #4} \\
+     
+    \end{tabular*}\vspace{-7pt}
+}
+
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+
+
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{1.001\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & \textbf{\small #2}\\
+    \end{tabular*}\vspace{-7pt}
+}
+
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+
+\renewcommand\labelitemi{$\vcenter{\hbox{\tiny$\bullet$}}$}
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.0in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+
+
+
+\newcommand\sbullet[1][.5]{\mathbin{\vcenter{\hbox{\scalebox{#1}{$\bullet$}}}}}
+
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+
+
+\begin{document}
+
+
+%----------HEADING----------
+
+
+
+
+\begin{center}
+    {\Huge \scshape DEEPIKA } \\ \vspace{1pt}
+    Delhi \\ \vspace{1pt}
+    \small \href{9775191581}{ \raisebox{-0.1\height}\ \underline{9775191581} ~} \href{deepika024btit22@igdtuw.ac.in}{\raisebox{-0.2\height}\ \underline{deepika024btit22@igdtuw.ac.in}} ~
+    \href{https://www.linkedin.com/in/deepika-495590261?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app}{\raisebox{-0.2\height}\ \underline{Linkedln}}  ~
+    \href{https://github.com/deepikasin}{\raisebox{-0.2\height}\ \underline{Github}} ~
+    \href{https://leetcode.com/u/deepika_7/}{\raisebox{-0.2\height}\ \underline{Leetcode}} ~
+    \href{https://www.naukri.com/code360/profile/Deepik}{\raisebox{-0.2\height}\ \underline{Coding Ninjas}}
+    \vspace{-8pt}
+\end{center}
+
+
+
+
+\section{OBJECTIVE}
+  \resumeSubHeadingListStart
+
+        \resumeItem{\normalsize{Seeking for Software Developer role to contribute in success of tech company by my strong programming skills, passion
+for problem-solving, and writing clean code
+}}
+  
+  \resumeSubHeadingListEnd
+\vspace{-12pt}
+
+
+
+
+%-----------EDUCATION-----------
+\section{EDUCATION}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Indira Gandhi Delhi Technical University for Women  Name}{2022 -- 2026}
+      {Information Technology - \textbf{8.7 CGPA }}{}
+  \resumeSubHeadingListEnd
+ 
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Senior Secondary - XII}{2021}
+      { CBSE  - \textbf{} - \textbf{94.6\%}}{}
+  \resumeSubHeadingListEnd
+
+\resumeSubHeadingListStart
+    \resumeSubheading
+      {Secondary - X}{2019}
+      { CBSE  - \textbf{} - \textbf{91.2\%}}{}
+  \resumeSubHeadingListEnd
+\hspace{1cm}
+%------RELEVANT COURSEWORK-------
+\section{COURSEWORK / SKILLS}
+    %\resumeSubHeadingListStart
+        \begin{multicols}{4}
+            \begin{itemize}[itemsep=-2pt, parsep=5pt]
+                \item Data Structures \& Algorithms
+                \item Operating Systems
+                \item DBMS
+               
+                \item OOPS Concept
+                \item Machine Learning
+            \end{itemize}
+        \end{multicols}
+        \vspace*{2.0\multicolsep}
+    %\resumeSubHeadingListEnd
+
+\hspace{1cm}
+
+\section{CERTIFICATIONS}
+
+\resumeItemListStart
+\resumeItem{\normalsize{ Created an research paper on EMOTION RECOGNITION USING MACHINE LEARNING , project focuses on utilizing Electroencephalography (EEG) data to develop an emotion recognition system based on machine learning
+techniques
+of data structures and algorithms \textbf{}}}
+\resumeItemListEnd
+% \hspace{1cm}
+ \resumeItem{\normalsize{
+ IGDTUW - Anveshan foudation AI-DS Department.
+
+    \href{https://drive.google.com/file/d/1Wu6uPriWdtC1CDOkftlRL9qir-Z0CGJT/view?usp=sharing}{\raisebox{-0.2\height}\ \underline{Certificate}} ~
+
+{\raisebox{-0.1\height}}}}\ 
+
+
+
+
+% %-----------EXPERIENCE-----------
+% \section{INTERNSHIP}
+%   \resumeSubHeadingListStart
+
+
+%     \resumeSubheading
+%       {Company Name \href{certificate Link}{\raisebox{-0.1\height}\faExternalLink }}{MM YYYY -- MM YYYY}
+%       {\underline{Role Name}}{city, country}
+%       \resumeItemListStart
+%         \resumeItem{\normalsize{About the role \textbf{and responsibilities carried out.}}}
+ 
+%       \resumeItemListEnd  
+%   \resumeSubHeadingListEnd
+% \vspace{-12pt}
+%-----------PROGRAMMING SKILLS-----------
+
+
+
+\section{TECHNICAL SKILLS}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{\normalsize{Languages:}}{ \normalsize{Python, C, C++}} \\
+    }}
+ \end{itemize}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+   
+     
+     % \textbf{\normalsize{Technologies/Frameworks:}}{\normalsize{ GitHub}} \\
+    }}
+ \end{itemize}
+ \vspace{-15pt}
+\hspace{1cm}
+
+
+
+%-----------INVOLVEMENT---------------
+\section{EXTRACURRICULAR}
+\hspace{0.5cm}
+    % \resumeSubHeadingListStart
+    %     \resumeSubheading{\href{Certificate Proof link}{\raisebox{-0.1\height}\faExternalLink } }{MM YYY}{\underline{}}{Location}
+            \resumeItemListStart
+                \resumeItem{\normalsize{ Solved over 200 questions on LeetCode, demonstrating strong problem-solving skills and a deep understanding
+of data structures and algorithms \textbf{}}}
+                % \resumeItemListStart
+                \resumeItem{\normalsize{ Solved around 350 questions on Coding ninjas, demonstrating strong problem-solving skills and a deep understanding of data structures and algorithms \textbf{}}}
+            \resumeItemListEnd
+
+            \resumeItemListStart
+                \resumeItem{\normalsize{   Solved and got 5 star badge in HackerRank, showcasing proficiency in a wide range of computer science concepts
+and algorithms.
+ \textbf{}}}
+            \resumeItemListEnd
+            \resumeItemListStart
+                \resumeItem{\normalsize{  Participated in 48-hour Hackathon REGIN’23 and got selected in top 20 where we gave idea on a personal trainer app
+and algorithm \textbf{}}}
+            \resumeItemListEnd
+    % \resumeSubHeadingListEnd
+ \vspace{-11pt}
+ 
+\hspace{0.5cm}
+
+
+
+%-----------PROJECTS-----------
+\section{PROJECTS}
+
+    \resumeSubHeadingListStart
+      \resumeItemListStart
+                \resumeItem{\normalsize{  An research paper with my team on The EEG data set from kaggle where ten students are given ten videos ,
+we got 100 data points. We applied models like Logistic regression ,Decision trees and kNN  \textbf{}}}
+            \resumeItemListEnd
+    
+      \resumeItemListStart
+                \resumeItem{\normalsize{  Designed and developed a dynamic portfolio website to show case skills Portfolio using HTML and CSS,. In this
+I designed a visually appealing product display with hover effects. Clean design to highlight skills and projects.
+\textbf{}}}
+            \resumeItemListEnd
+
+            \resumeItemListStart
+                \resumeItem{\normalsize{  Developed a to-do list web app using HTML and CSS, with user authentication for personalized task lists.
+Include features for task creation, editing, and deletion to prioritize tasks. Implement a responsive layout for usability on different devices \textbf{}}}
+            \resumeItemListEnd
+         
+    \resumeSubHeadingListEnd
+\vspace{-12pt}
+
+
+
+
+
+
+
+\end{document}
+
+
+
+
+
